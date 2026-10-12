@@ -1,0 +1,14 @@
+{
+  "name": "notes",
+  "label": "Notes",
+  "description": "Personal Markdown notes stored as Obsidian notes in a configurable vault — shared across Dashboard instances.",
+  "icon": "FileText",
+  "version": "1.1.0",
+  "tab": {
+    "path": "/notes",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}
